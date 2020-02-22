@@ -1,12 +1,16 @@
 {
   "name": "epix",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Epics without redux-observable",
   "type": "module",
   "main": "dist/index.js",
-  "repository": "https://github.com/getkey/epix",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getkey/epix.git"
+  },
   "license": "MPL-2.0",
   "private": false,
+  "keywords": ["redux-observable", "epic", "epics", "rxjs", "reactive"],
   "scripts": {
     "build": "tsc",
     "lint": "eslint --ext=tsx,ts src"
