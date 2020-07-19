@@ -12,7 +12,7 @@ export function startEpics<A extends ActionLike, P>(
 	const subscription = merge(
 		...epics.map((epic) => epic(action$, params).pipe(
 			tap((action: A) => {
-				if (action.type === undefined) {
+				if (typeof action !== 'object' || action.type === undefined) {
 					// eslint-disable-next-line no-console
 					console.error(action, 'is not an action and was returned from', epic);
 					throw new TypeError('Not an action. Maybe you need to ignoreElements() in your epic.');

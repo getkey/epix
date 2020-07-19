@@ -1,6 +1,6 @@
 {
   "name": "epix",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Epics without redux-observable",
   "type": "module",
   "main": "dist/index.js",
@@ -19,7 +19,8 @@
   ],
   "scripts": {
     "build": "tsc",
-    "lint": "eslint --ext=tsx,ts src"
+    "lint": "eslint --ext=tsx,ts src",
+    "prepublish": "npm run build"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^3.6.1",
