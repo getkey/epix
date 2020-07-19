@@ -1,5 +1,7 @@
 # Epix
 
+![npm](https://img.shields.io/npm/v/epix)
+
 Epics without [redux-observable](https://redux-observable.js.org/).
 
 ## Why?
@@ -9,11 +11,11 @@ Epics are a very strong pattern to build maintainable applications with RxJS. Th
 ## Install
 
 ```sh
-npm install epix
+yarn add epix
 ```
 
 or
 
 ```sh
-yarn add epix
+npm install epix
 ```
