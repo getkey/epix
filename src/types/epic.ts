@@ -1,6 +1,6 @@
 import { Observable } from 'rxjs';
 
-import { ActionLike } from './ActionLike';
+import { ActionLike } from './ActionLike.js';
 
 // courtesy of URL below
 // https://github.com/redux-observable/redux-observable/blob/e0e658d17fd40eabe0f9c43e2a45db4aa1d1b3d3/src/epic.ts

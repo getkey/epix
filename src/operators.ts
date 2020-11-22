@@ -1,7 +1,7 @@
 import { OperatorFunction } from 'rxjs';
 import { filter } from 'rxjs/operators';
 
-import { ActionLike } from './types/ActionLike';
+import { ActionLike } from './types/ActionLike.js';
 
 // the typings of this functions are courtesy of URL below
 // https://github.com/redux-observable/redux-observable/blob/e0e658d17fd40eabe0f9c43e2a45db4aa1d1b3d3/src/operators.ts

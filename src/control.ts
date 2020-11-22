@@ -1,8 +1,8 @@
 import { merge, Subscription, Subject } from 'rxjs';
 import { tap } from 'rxjs/operators';
 
-import { ActionLike } from './types/ActionLike';
-import { Epic } from './types/epic';
+import { ActionLike } from './types/ActionLike.js';
+import { Epic } from './types/epic.js';
 
 export function startEpics<A extends ActionLike, P>(
 	epics: Array<Epic<A, A, P>>,
