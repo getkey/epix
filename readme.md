@@ -1,6 +1,6 @@
 # Epix
 
-![npm](https://img.shields.io/npm/v/epix)
+[![npm](https://img.shields.io/npm/v/epix)](https://www.npmjs.com/package/epix)
 
 Epics without [redux-observable](https://redux-observable.js.org/).
 
@@ -89,8 +89,6 @@ Define an action type.
 ```ts
 type Actions = {
 	type: 'sayHi';
-	entityId: string;
-	ev: InteractionEvent;
 } | {
 	type: 'sayMyName';
 	name: string;
